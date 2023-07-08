@@ -1,4 +1,4 @@
-# This is a copy of ([node-steam-crypto](https://github.com/seishun/node-steam-crypto)
+# This is a copy of ([node-steam-crypto])(https://github.com/seishun/node-steam-crypto)
 
 As Seishun does not maintain the packages anymore, I will try to keep it up to date.
 
