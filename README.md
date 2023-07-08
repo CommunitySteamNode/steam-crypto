@@ -1,5 +1,7 @@
 # @CommunitySteamNode/steam-crypto
 
+[![Node.js Package](https://github.com/CommunitySteamNode/steam-crypto/actions/workflows/npm-publish.yml/badge.svg)](https://github.com/CommunitySteamNode/steam-crypto/actions/workflows/npm-publish.yml)
+
 Node.js implementation of Steam crypto. All keys and data are passed as Buffers.
 
 ## Installation
