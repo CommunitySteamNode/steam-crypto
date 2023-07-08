@@ -1,8 +1,8 @@
 {
-  "name": "steam-crypto",
+  "name": "@communitysteammode/steam-crypto",
   "description": "As Seishun does not maintain the packages anymore, I will try to keep it up to date.",
   "version": "1.0.0",
-  "main": "index.ts",
+  "main": "dist/index.ts",
   "directories": {
     "test": "test"
   },
@@ -12,6 +12,7 @@
     "path": "^0.12.7"
   },
   "devDependencies": {
+    "@types/jest": "^29.5.2",
     "@types/node": "^20.4.1",
     "@typescript-eslint/eslint-plugin": "^5.61.0",
     "@typescript-eslint/parser": "^5.61.0",
@@ -21,18 +22,25 @@
     "eslint-plugin-n": "^15.7.0",
     "eslint-plugin-promise": "^6.1.1",
     "husky": "^8.0.3",
+    "jest": "^25.0.0",
+    "ts-jest": "^27.0.3",
     "typescript": "^5.1.6"
   },
   "scripts": {
+    "prepare": "npm run build",
+    "prepublishOnly": "npm test",
+    "preversion": "npm run lint",
+    "version": "npm run format && git add -A modules",
+    "postversion": "git push && git push --tags",
     "test": "",
-    "prepare": "husky install",
+    "build": "tsc",
     "lint": "eslint  --ignore-path .eslintignore --ext .js,.ts ."
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/CommunitySteamNode/steam-crypto.git"
   },
-  "author": "Saman Muradi",
+  "author": "CommunitySteamNode",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/CommunitySteamNode/steam-crypto/issues"

@@ -1,6 +1,6 @@
 import { createCipheriv, randomBytes, createDecipheriv } from 'crypto'
 
-export class SymmetricEncrypt {
+export class Codec {
   public encrypt (input: any, key: string): Buffer {
     const iv = randomBytes(16)
     const aesIv = createCipheriv('aes-256-ecb', key, '')

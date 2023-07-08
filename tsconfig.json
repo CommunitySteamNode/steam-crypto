@@ -1,10 +1,12 @@
 {
     "compilerOptions": {
         "outDir": "dist",
+        "strict": true,
         "target": "ESNext",
         "module": "ESNext",
         "noImplicitAny": true,
         "strictNullChecks": true,
+        "moduleResolution": "node",
         "allowSyntheticDefaultImports": true
     },
     "include": [
@@ -12,6 +14,7 @@
         "modules",
     ],
     "exclude": [
-        "node_modules"
+        "node_modules",
+        "test"
     ],
 }
