@@ -1,7 +1,7 @@
 {
   "name": "@communitysteammode/steam-crypto",
   "description": "Node.js implementation of Steam crypto. All keys and data are passed as Buffers.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "dist/index.ts",
   "directories": {
     "test": "test"

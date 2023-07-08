@@ -1,2 +1,2 @@
 export * from './modules/codec'
-export * from './modules/generateSessionKey'
+export * from './modules/sessionkey'
