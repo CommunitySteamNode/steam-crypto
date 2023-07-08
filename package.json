@@ -1,0 +1,41 @@
+{
+  "name": "steam-crypto",
+  "description": "As Seishun does not maintain the packages anymore, I will try to keep it up to date.",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "@types/node": "^20.4.1",
+    "@typescript-eslint/eslint-plugin": "^5.61.0",
+    "@typescript-eslint/parser": "^5.61.0",
+    "eslint": "^8.44.0",
+    "eslint-config-standard-with-typescript": "^36.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.7.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "husky": "^8.0.3",
+    "typescript": "^5.1.6"
+  },
+  "scripts": {
+    "test": "",
+    "prepare": "husky install",
+    "lint": "eslint  --ignore-path .eslintignore --ext .js,.ts ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CommunitySteamNode/steam-crypto.git"
+  },
+  "author": "Saman Muradi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CommunitySteamNode/steam-crypto/issues"
+  },
+  "homepage": "https://github.com/CommunitySteamNode/steam-crypto#readme"
+}

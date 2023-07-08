@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "outDir": "dist",
+        "target": "ESNext",
+        "module": "ESNext",
+        "noImplicitAny": true,
+        "strictNullChecks": true,
+        "allowSyntheticDefaultImports": true
+    },
+    "include": [
+        "index.ts",
+        "modules",
+    ],
+    "exclude": [
+        "node_modules"
+    ],
+}
