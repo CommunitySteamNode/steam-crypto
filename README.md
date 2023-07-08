@@ -19,6 +19,7 @@ npm install @communitysteammode/steam-crypto
 ## Package Documentation
 
 [Codec](docs/codec.md)
+
 [SessionKey](docs/sessionkey.md)
 
 ## License
